@@ -1,18 +1,21 @@
 import './App.css';
 import Text from './components/Text';
 import Example from './components/Example';
-
+import Background from "./components/Background/Background"
+import Image from './components/Image/Image';
 
 function App() {
   return (
     <div className="App">
-      <Text/>
-      <Example/>
+      {/* <Text/>
+      <Example/> */}
       {/* // -> block */}
-      <p>P</p> 
+      {/* <p>P</p>  */}
       {/* // inline block */}
-      <span>SPAN</span>
-      <strong>STRONG</strong>
+      {/* <span>SPAN</span>
+      <strong>STRONG</strong> */}
+      {/* <Background/> */}
+      <Image/>
     </div>
   );
 }
