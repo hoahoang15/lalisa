@@ -1,13 +1,13 @@
-import React from 'react'
-import "./Button.css"
+// libs
+import React from "react";
+// others
+import "./Button.css";
 
+/**
+ * Button
+ */
 const Button = () => {
+    return <button className="button_wrapper">BUTTON</button>;
+};
 
-    return (
-        <div>
-            <p className="Button_button">BUTTON</p>
-        </div>
-    )
-}
-
-export default Button
+export default Button;
