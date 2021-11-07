@@ -1,0 +1,15 @@
+.button_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 45px;
+    color: #e2e2f4;
+    background: linear-gradient(142.2deg, #4e477a 9.59%, #0b0d49 103.31%);
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+}
