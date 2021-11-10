@@ -5,6 +5,7 @@ import './App.css';
 // import Image from './components/Image/Image';
 // import Button from './components/Button/Button'
 import ActivityWidget from "./components/ActivityWidget/ActivityWidget"
+import ButtonIcon from "./components/ButtonIcon"
 
 // ctrl + /
 function App() {
@@ -21,14 +22,15 @@ function App() {
       {/* <Image/> */}
       {/* <Button/>d */}
       {/* props */}
-      <div style={{ display: "flex", gap: "60px" }}>
+      {/* <div style={{ display: "flex", gap: "60px" }}>
         <div style={{ width: "224px", height: "97px" }}>
           <ActivityWidget amount={12} />
         </div>
         <div style={{ width: "250px", height: "97px" }}>
           <ActivityWidget amount={13} />
         </div>
-      </div>
+      </div> */}
+      <ButtonIcon/>
     </div>
   );
 }
