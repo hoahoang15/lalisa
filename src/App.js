@@ -4,8 +4,9 @@ import './App.css';
 // import Background from "./components/Background/Background"
 // import Image from './components/Image/Image';
 // import Button from './components/Button/Button'
-import ActivityWidget from "./components/ActivityWidget/ActivityWidget"
-import ButtonIcon from "./components/ButtonIcon"
+// import ActivityWidget from "./components/ActivityWidget/ActivityWidget"
+// import ButtonIcon from "./components/ButtonIcon"
+import Menu from './components/Menu';
 
 // ctrl + /
 function App() {
@@ -30,7 +31,8 @@ function App() {
           <ActivityWidget amount={13} />
         </div>
       </div> */}
-      <ButtonIcon/>
+      {/* <ButtonIcon/> */}
+      <Menu />
     </div>
   );
 }
