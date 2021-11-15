@@ -7,6 +7,7 @@ import './App.css';
 // import ActivityWidget from "./components/ActivityWidget/ActivityWidget"
 // import ButtonIcon from "./components/ButtonIcon"
 import Menu from './components/Menu';
+import Home from './Pages/Home';
 
 // ctrl + /
 function App() {
@@ -32,7 +33,8 @@ function App() {
         </div>
       </div> */}
       {/* <ButtonIcon/> */}
-      <Menu />
+      {/* <Menu /> */}
+      <Home/>
     </div>
   );
 }
