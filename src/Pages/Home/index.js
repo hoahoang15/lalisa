@@ -5,18 +5,18 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 // styles
-import { Container } from './home.styles'
+import { HomeContainer } from './home.styles'
 
 /**
  * Home
  */
 const Home = () => {
     return (
-        <Container>
+        <HomeContainer>
             <Header/>
             <Main/>
             <Footer/>
-        </Container>
+        </HomeContainer>
     )
 }
 
