@@ -8,4 +8,5 @@ export const HomeContainer = styled.div`
     height: 100vh;
     background: url(${background}) top left repeat;
     margin: 0 auto;
+    padding: 0 60px;
 `
