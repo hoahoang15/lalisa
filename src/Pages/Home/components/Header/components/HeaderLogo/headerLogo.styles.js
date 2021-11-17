@@ -6,7 +6,6 @@ export const HeaderLogoContainer = styled.div`
     justify-content: space-between;
     height: 130px;
     padding-left: 17px;
-    background-color: aliceblue;
     .header-logo{
         &-left {
             display: flex;
