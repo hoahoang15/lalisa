@@ -4,6 +4,7 @@ body {
   background-repeat: repeat; */
   background: url("./assets/image/background-body.jpg") left top repeat;
   user-select: none;
+  height: 100vh;
 }
 
 * {
